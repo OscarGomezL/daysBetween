@@ -1,0 +1,12 @@
+.select_date-input_container-input {
+	background: var(--color_3);
+	border: none;
+	padding: 10px;
+	color: var(--text);
+}
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+    background-color: var(--selection);
+    outline: none;
+}
