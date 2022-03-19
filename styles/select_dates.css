@@ -1,0 +1,38 @@
+.select_date {
+	width: 380px;
+	height: 500px;
+	color: var(--text);
+	background: var(--color_3);
+	border-radius: 30px;
+}
+.select_date-title_container {
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	height: 15%;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	background: var(--color_4);
+}
+
+.select_date-title_container-text {
+	font-size: 2.1rem;
+}
+.select_date-date {
+	height: 70%;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+.select_date-date-text {
+	font-size: 2rem;
+}
+.select_date-input_container {
+	height: 15%;
+	width: 100%;
+	background: var(--color_4);
+	display: grid;
+	place-items: center;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
