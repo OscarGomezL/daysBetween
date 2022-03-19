@@ -1,0 +1,6 @@
+.calculate {
+	width: 200px;
+	height: 100px;
+	color: var(--text);
+	background: var(--color_3);
+}
