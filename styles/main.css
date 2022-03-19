@@ -1,0 +1,9 @@
+main {
+	height: 82vh;
+	width: 100vw;
+	background: var(--color_2);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
