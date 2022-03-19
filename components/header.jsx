@@ -1,5 +1,8 @@
 export default function Header() {
 	return (
-		<header>footer</header>
+		<header>
+			<img src="/favicon.ico" alt="" />
+			<div>daysBetween</div>
+		</header>
 	)
 }
