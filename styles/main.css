@@ -6,4 +6,6 @@ main {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	overflow: scroll;
+	overflow-x: hidden;
 }

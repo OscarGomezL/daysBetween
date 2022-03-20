@@ -1,6 +1,11 @@
 .calculate {
 	width: 200px;
 	height: 100px;
+	display: grid;
+	place-items: center;
 	color: var(--text);
 	background: var(--color_3);
+}
+.calculate-text {
+	font-size: 1.8rem;
 }

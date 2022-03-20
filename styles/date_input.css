@@ -1,5 +1,6 @@
 .select_date-input_container-input {
 	background: var(--color_3);
+	height: 60%;
 	border: none;
 	padding: 10px;
 	color: var(--text);
