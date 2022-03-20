@@ -1,8 +1,9 @@
 .select_date {
-	width: 380px;
-	height: 500px;
+	width: 80vw;
+	height: calc(40vh - 20px);
 	color: var(--text);
 	background: var(--color_3);
+	margin: 10px;
 	border-radius: 30px;
 }
 .select_date-title_container {
@@ -16,7 +17,7 @@
 }
 
 .select_date-title_container-text {
-	font-size: 2.1rem;
+	font-size: 1.7rem;
 }
 .select_date-date {
 	height: 70%;
@@ -36,3 +37,44 @@
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 }
+
+/*General Landscape*/
+@media only screen and (orientation: landscape) {}
+
+/*General Portrait*/
+@media only screen and (orientation: portrait) {}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) and (orientation: landscape) {
+	.select_date {
+		width: 80vw;
+		height: 500px;
+	}
+}
+ 
+/* Mini Mobiles (portrait)  */
+@media only screen and (max-width : 320px) and (orientation: portrait) {}
+ 
+/* Mini Mobiles (landscape)  */
+@media only screen and (max-height: 320px) and (orientation: landscape) {}
+ 
+/* iPads (landscape) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {}
+ 
+/* iPads (portrait) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {}
+ 
+/* Desktops and Laptops */
+@media only screen and (min-width : 1224px) {
+	.select_date {
+		width: 380px;
+		height: 500px;
+		margin: 0;
+	}
+	.select_date-title_container-text {
+		font-size: 2.1rem;
+	}
+}
+ 
+/* Extra-large screens */
+@media only screen and (min-width : 1824px) {}
