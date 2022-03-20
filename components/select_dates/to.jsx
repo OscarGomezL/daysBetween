@@ -1,4 +1,4 @@
-export default function To() {
+export default function To({to, setTo}) {
 	return (
 		<div className="select_date to">
 			<div className="select_date-title_container">
@@ -8,11 +8,16 @@ export default function To() {
 			</div>
 			<div className="select_date-date">
 				<div className="select_date-date-text">
-					2022-04-08
+					{to}
 				</div>
 			</div>
 			<div className="select_date-input_container">
-				<input className="select_date-input_container-input" type="date" />
+				<input 
+					className="select_date-input_container-input"
+					type="date"
+					value={to}
+					onChange={e=>{setTo(e.target.value)}}
+				/>
 			</div>
 		</div>
 	)

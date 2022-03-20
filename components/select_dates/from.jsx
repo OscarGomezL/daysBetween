@@ -1,4 +1,4 @@
-export default function From() {
+export default function From({from, setFrom}) {
 	return (
 		<div className="select_date from">
 			<div className="select_date-title_container">
@@ -8,11 +8,16 @@ export default function From() {
 			</div>
 			<div className="select_date-date">
 				<div className="select_date-date-text">
-					2022-04-08
+					{from}
 				</div>
 			</div>
 			<div className="select_date-input_container">
-				<input className="select_date-input_container-input" type="date" />
+				<input 
+					className="select_date-input_container-input"
+					type="date"
+					value={from}
+					onChange={e=>{setFrom(e.target.value)}}
+				/>
 			</div>
 		</div>
 	)
