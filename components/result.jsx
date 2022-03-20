@@ -1,7 +1,7 @@
-export default function Result() {
+export default function Result({result}) {
 	return (
 		<div className="result">
-			432 days
+			<div className="result-text">{isNaN(result)? 'Select a Date':(result+" days")}</div>
 		</div>
 	)
 }
