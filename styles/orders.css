@@ -1,0 +1,51 @@
+.to {
+	order: 1;
+}
+.from {
+	order: 2;
+}
+.calculate {
+	order: 3;
+}
+.result {
+	order: 4;
+}
+/*General Landscape*/
+@media only screen and (orientation: landscape) {}
+
+/*General Portrait*/
+@media only screen and (orientation: portrait) {}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) and (orientation: landscape) {}
+ 
+/* Mini Mobiles (portrait)  */
+@media only screen and (max-width : 320px) and (orientation: portrait) {}
+ 
+/* Mini Mobiles (landscape)  */
+@media only screen and (max-height: 320px) and (orientation: landscape) {}
+ 
+/* iPads (landscape) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {}
+ 
+/* iPads (portrait) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {}
+ 
+/* Desktops and Laptops */
+@media only screen and (min-width : 1224px) {
+	.to {
+		order: 1;
+	}
+	.from {
+		order: 4;
+	}
+	.calculate {
+		order: 2;
+	}
+	.result {
+		order: 3;
+	}
+}
+ 
+/* Extra-large screens */
+@media only screen and (min-width : 1824px) {}
