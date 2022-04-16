@@ -7,7 +7,6 @@ import '../styles/main.css'
 import '../styles/result.css'
 import '../styles/orders.css'
 import '../styles/header.css'
-import '../styles/calculate.css'
 import '../styles/select_dates.css'
 import '../styles/date_input.css'
 
