@@ -1,14 +1,11 @@
-.to {
+.from {
 	order: 1;
 }
-.from {
+.to {
 	order: 2;
 }
-.calculate {
-	order: 3;
-}
 .result {
-	order: 4;
+	order: 3;
 }
 /*General Landscape*/
 @media only screen and (orientation: landscape) {}
@@ -34,16 +31,13 @@
 /* Desktops and Laptops */
 @media only screen and (min-width : 1224px) {
 	.to {
-		order: 1;
-	}
-	.from {
-		order: 4;
+		order: 3;
 	}
 	.calculate {
 		order: 2;
 	}
 	.result {
-		order: 3;
+		order: 1;
 	}
 }
  
