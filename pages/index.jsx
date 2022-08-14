@@ -8,6 +8,7 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>daysBetween</title>
+				<meta name="description" content="daysBetween" />
 			</Head>
 
 			<Header/>
